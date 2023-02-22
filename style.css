@@ -1,0 +1,482 @@
+.block__banner {
+    position: absolute;
+    width: 1920px;
+    height: 890px;
+    left: -1px;
+    top: 0px;
+    
+}
+
+.image {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0px;
+    top: 0px;
+
+    background: linear-gradient(84deg, rgba(0, 0, 0, 0.8) 6.8%, rgba(0, 0, 0, 0) 40.54%), url(images/photo_2023-02-13_11-42-06.jpg);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: cover;
+}
+.block__menu {
+    position: relative;
+    width: 1512px;
+    height: 40px;
+    left: 199px;
+    top: 50px;
+}
+.block__punkts {
+    top: calc(50% - 17px/2 + 2.5px);
+
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+
+    text-transform: uppercase;
+    color: white;
+    position: absolute;
+    left: 0%;
+    right: 68.31%;
+    top: 35%;
+    bottom: 22.5%;
+}
+
+.block__buttom {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    
+    left: 64.69%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+    /* justify-content: space-between; */
+    top: calc(50% - 17px/2 + 2.5px);
+
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.block__buttom button {
+    
+    
+    /* width: 177px;
+    height: 40px;
+    right: 0px;
+    top: calc(50% - 40px/2);
+    border: 2px solid #FFFFFF;
+    border-radius: 50px;
+    box-sizing: border-box;
+    color: #FFFFFF; */
+
+    position: absolute;
+    width: 177px;
+    height: 40px;
+    right: 0px;
+    top: calc(50% - 40px/2);
+
+    border: 2px solid #FFFFFF;
+    border-radius: 50px;
+}
+
+.block__buttom button a {
+    position: absolute;
+    width: 116px;
+    height: 14px;
+    right: 30px;
+    top: calc(50% - 14px/2 + 1px);
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 14px;
+    text-transform: uppercase;
+}
+
+.logo {
+    position: absolute;
+    width: 295px;
+    height: 153px;
+    left: 199px;
+    top: 210px;
+
+}
+
+.anonc_banner {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    width: 750px;
+    height: 326px;
+    left: 199px;
+    top: 449px;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 500;
+    color: #FFFFFF;
+    font-weight: bold;
+    
+}
+
+.anonc_banner a {
+    font-size: 44px;
+    line-height: 52px;
+}
+
+.anonc_banner a1 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 125%;
+
+    letter-spacing: 0.02em;
+}
+
+.anonc_banner button {
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+
+    color: #F9F9F9;
+    width: 261px;
+    height: 55px;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+    background: #AB2421;
+    border-radius: 50px;
+}
+
+.block__strelki {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    left: 710px;
+    top: 790px;
+
+}
+
+.block__info {
+}
+
+.info__left {
+    position: absolute;
+    width: 910px;
+    height: 499px;
+    left: -4px;
+    top: 892px;
+    background: #FFFFFF;
+}
+
+.info__right {
+    position: absolute;
+    background: #EEEEEE;
+    width: 1017px;
+    height: 600px;
+    left: 910px;
+    top: 790px;
+}
+
+.info__product {
+    position: absolute;
+    width: 719px;
+    height: 460px;
+    left: 96px;
+    top: 76px;
+    
+}
+
+.all__product {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+                            
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    text-transform: uppercase;
+    color: #AB2421;
+
+}
+
+.product__first {
+    width: 173px;
+    height: 187px;
+    margin-right: 100px;
+}
+
+.info__system {
+    position: absolute;
+    width: 1996px;
+    height: 620px;
+    left: -13px;
+    top: 1390px;
+
+    font-family: 'Rubik';
+    font-style: normal; 
+    color: #FFFFFF;
+}
+
+.system__left {
+    width: 1023px;
+    height: 620px;
+    background: #AB2421;
+}
+
+.system__right {
+    position: absolute;
+    width: 910px;
+    height: 620px;
+    left: 1024px;
+    top: 0px;
+    background: url(images/image.svg);
+}
+
+.sklad__left {
+    position: absolute;
+    width: 964px;
+    height: 620px;
+    left: -10px;
+    top: 2010px;
+
+    background: linear-gradient(180.96deg, rgba(0, 0, 0, 0) 30.35%, rgba(0, 0, 0, 0.5) 98.35%), url(images/image1.svg);
+}
+
+.sklad__right {
+    position: absolute;
+    width: 1021px;
+    height: 620px;
+    left: 910px;
+    top: 2010px;
+    font-family: 'Rubik';
+    font-style: normal;
+    
+    background: #B1B2B3;
+}
+
+.sklad__right img {
+    position: absolute;
+    width: 325px;
+    height: 473.24px;
+    left: 678px;
+    top: 177px;
+    background: url(images/sklad.svg);
+}
+
+.sklad__right div {
+    position: absolute;
+    width: 456px;
+    height: 93px;
+    left: 100px;
+    top: 338px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 125%;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+}
+
+.tech__left {
+    position: absolute;
+    width: 1017px;
+    height: 620px;
+    left: -6px;
+    top: 2629px;
+
+    background: #EEEEEE;
+}
+
+.tech__right {
+    position: absolute;
+    width: 903px;
+    height: 620px;
+    left: 1012px;
+    top: 2631px;
+
+    background: url(/images/photo_2023-02-20_18-50-38.jpg);
+    /* transform: matrix(-1, 0, 0, 1, 0, 0); */
+}
+
+.tech__left {
+    font-family: 'Rubik';
+    font-style: normal;
+}
+
+.tech__left img {
+    position: absolute;
+    width: 300.33px;
+    height: 391.52px;
+    left: 0px;
+    top: 197px;
+
+    background: url(images/techleft.svg);
+}
+
+.serv__left {
+    position: absolute;
+    width: 1055px;
+    height: 620px;
+    left: -44px;
+    top: 3249px;
+
+    background: url(/images/photo_2023-02-20_19-51-52.jpg);
+}
+
+.serv__right {
+    position: absolute;
+    width: 1017px;
+    height: 620px;
+    left: 910px;
+    top: 3249px;
+    font-family: 'Rubik';
+    font-style: normal;
+    background: #57585A;
+    color: #FFFFFF;
+}
+
+.serv__right a1 {
+    box-sizing: border-box;
+    width: 277px;
+    height: 55px;
+    position: absolute;
+    left: 100px;
+    right: 0%;
+    top: 404px;
+    bottom: 0%;
+    width: 155px;
+    height: 21px;
+    border: 2px solid #FFFFFF;
+    border-radius: 50px;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.info__podshib {
+    position: absolute;
+    width: 1929.4px;
+    height: 1053px;
+    left: 0px;
+    top: 3929px;
+}
+
+.podshib1 {
+    background: url(images/podshib1.svg);
+    position: absolute;
+    width: 297px;
+    height: 159.44px;
+    left: 32px;
+    top: 953px;
+}
+
+.podshib2 {
+    background: url(images/podshib2.svg);
+    position: absolute;
+    width: 343px;
+    height: 321.44px;
+    left: 278px;
+    top: 791px;
+}
+
+.podshib3 {
+    background: url(images/podshib3.svg);
+    position: absolute;
+    width: 438.32px;
+    height: 397.44px;
+    left: 541px;
+    top: 715px;
+}
+
+.podshib4 {
+    background: url(images/podshib4.svg);
+    position: absolute;
+    width: 1058.87px;
+    height: 1053px;
+    left: 870.54px;
+    top: 60px;
+
+}
+
+.podshib__text button {
+    font-family: 'Rubik';
+    font-style: normal;
+    position: absolute;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    color: #F9F9F9;
+    width: 261px;
+    height: 55px;                    
+    border-radius: 50px;
+}
+
+.client__img {
+    background: url(images/client.svg);
+    position: absolute;
+    width: 1916px;
+    height: 525px;
+    left: 2px;
+    top: 5172px;
+}
+
+.info__news {
+    position: absolute;
+    width: 1920px;
+    height: 944px;
+    left: 0px;
+    top: 5909px;
+    display: flex;
+}
+
+.new__big {
+    background: rgba(0, 0, 0, 0.5);
+
+    width: 910px;
+    height: 866px;
+    left: 0px;
+    top: 290px;
+    
+}
+
+.new__big a {
+    display: flex;
+    align-items: center;
+    /* text-align: center; */
+    color: #FFFFFF;
+    justify-content: center
+}
+
+.new__small {
+    
+    margin-left: 50px;
+    display: flex;
+    width: 1100px;
+    height: 866px;
+    flex-wrap: wrap;
+}
